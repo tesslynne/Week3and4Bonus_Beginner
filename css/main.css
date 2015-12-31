@@ -1,0 +1,236 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+body {
+	font-size: 18px;
+	background-color: #FAFAFA;
+}
+/*navigation*/
+nav {
+	background-color: #FE7E00;
+	height: 60px;
+	width: 100%;
+	position: relative;
+	font-color: #FAFAFA;
+}
+nav img {
+	width: 25px;
+	height: 25px;
+	position: relative;
+	float: left;
+}
+
+.logo {
+	color: #FAFAFA;
+	padding: 5px 5px 5px 5px;
+	display: inline;
+}
+.logo h3 {
+	float: left;
+	padding: 15px;
+}
+span .strong {
+	font-weight: 400;
+}
+
+.right-nav {
+	position: relative;
+
+}
+.right-nav ul {
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+.right-nav li {
+	display: inline;
+	padding: 10px
+}
+.right-nav a {
+	float: right;
+	text-decoration: none;
+	font-size: 12px;
+	color: #FAFAFA;
+	padding: 6px 6px 6px 6px;
+}
+
+/*search bar*/
+form #search-term {
+	float: right;
+    padding: 8px 8px 8px 25px;
+    width: 20%;
+    display: block;
+    border-radius: 6px;
+}
+
+/*oranges*/
+.oranges {
+	width: 650px;
+	position: relative;
+	padding: 100px 30px;
+	float: left;
+
+}
+.oranges img {
+	height: 300px;
+	width: 540px;
+}
+.header {
+	position: relative;
+    float: left;
+    color: #FE7E00;
+    width: 455px;
+    margin-top: 150px;
+    margin-bottom: 38px;
+}
+header h2 {
+	font-weight: 200;
+}
+.blue-font {
+	color: #78CBC8;
+}
+
+.buttons {
+	position: relative;
+    float: right;
+    border-radius: 5px;
+    width: 48%;
+   	display: inline;
+}
+
+#quote, 
+#studies {
+	font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fafafa;
+    padding: 10px 32px;
+    height: 50px;
+    width: 220px;
+}
+#quote {
+	background-color: #fe7e00;
+}
+#studies {
+	background-color: #78CBC8;
+}
+
+
+/*footer*/
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  background-color: #7accc8;
+  text-align: center;
+}
+.footer p {
+	visibility: hidden;
+}
+
+
+
+/*media queries*/
+@media screen and (max-width: 415px) {
+	div {
+		overflow: scroll;
+	}
+	.logo {
+		padding: 10px 5px;
+	}
+	.right-nav {
+		position: relative;
+		float: left;
+	}
+	.right-nav li {
+		padding: 5px;
+	}
+	form #search-term {
+	    padding: 10px 10px;
+	    width: 70%;
+	    margin-right: 40px;
+
+	}
+	.oranges {
+		width: 300px;
+    	position: relative;
+    	padding: 25px 25px 25px 25px;
+	}
+	.oranges img {
+		height: 190px;
+    	width: 300px;
+	}
+	.header {
+		margin-top: 20px;
+		width: 100%;
+		text-align: center;
+	}
+	.buttons {
+		float: left;
+		bottom: 30px;
+		margin-left: 20%;
+	}
+	.footer {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.oranges img {
+		width: 380px;
+		height: 300px;
+		margin-left: 100px;
+	}
+	.header {
+		margin-top: 30px;
+		width: 560px;
+		margin-bottom: 15px;
+	}
+	.header h2 {
+		text-align: center;
+	}
+	.buttons {
+		width: 100%;
+		margin-left: 40px;
+	}
+	#quote {
+		margin-left: 20px;
+	}
+	.footer {
+		height: 30px;
+	}
+@media all and (max-width: 1000px) {
+	.oranges {
+		width: 20%;
+		padding: 10px 15px;
+	}
+	.oranges img {
+		width: 300px;
+	}
+	.header {
+		margin-top: 100px;
+	}
+
+}
+@media all and (max-width: 1355px) {
+	.buttons {
+		width: 100%;
+		float: none;
+
+	}
+	.footer {
+		height: 40px;
+	}
+}
+@media all and (max-width: 1400px) {
+	.header {
+		float: left;
+		width: 480px;
+	}
+	.buttons {
+		float: right;
+	}
+}
